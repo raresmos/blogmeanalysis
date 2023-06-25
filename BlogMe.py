@@ -30,26 +30,7 @@ data.groupby(["source_id"])["engagement_reaction_count"].sum()
 data = data.drop("engagement_comment_plugin_count" , axis = 1)
 
 
-#Functions in Python
-
-def thisFunction():
-    print("This is mt First function")
-
-thisFunction()
-
-def aboutMe(name,surname,location):
-    print("This is " +name+" My surname is "+surname+" I am from "+location)
-    return name,surname,location
-a = aboutMe("Mos" , "Rares" , "Romania")
-
 #Using For loops in functions
-
-def favfood(food):
-    for x in food:
-        print("Top food is "+x)
-fastfood = ["burgers","pizza","pie"]
-
-favfood(fastfood)
 
 #creating a keyword flag  for loop
 
